@@ -9,10 +9,15 @@ public class Main {
             sum = sum + i;
         }
         System.out.println(sum);
-        int factorial = 1;
+              int factorial = 1;
         for (int i = 1; i < 6; i++) {
             factorial = factorial*i;
             System.out.println(factorial);
+        for (int n = 1; n < 6; n++) {
+            double intResult = (double) Math.pow(1.4, n);
+            System.out.println(intResult);
         }
+
+        System.out.println("Good Bye, Universe!");
     }
 }
