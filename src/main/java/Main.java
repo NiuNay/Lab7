@@ -9,5 +9,10 @@ public class Main {
             sum = sum + i;
         }
         System.out.println(sum);
+        int factorial = 1;
+        for (int i = 1; i < 6; i++) {
+            factorial = factorial*i;
+            System.out.println(factorial);
+        }
     }
 }
