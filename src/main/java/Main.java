@@ -9,5 +9,13 @@ public class Main {
             sum = sum + i;
         }
         System.out.println(sum);
+
+        for (int n = 1; n < 6; n++) {
+            double intResult = (double) Math.pow(1.4, n);
+            System.out.println(intResult);
+        }
+
+        System.out.println("Good Bye, Universe!");
+
     }
 }
